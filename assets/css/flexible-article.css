@@ -1,0 +1,50 @@
+/* General settings */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4a2323;
+}
+
+/* Media queries */
+
+
+
+/* Mobile style */
+
+@media screen and (max-width: 576px) {
+
+  .article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fef8d8;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 25px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.8rem;
+  }
+
+  .text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.8rem;
+  }
+
+  .honey-pic2 {
+    width: 350px;
+  }
+
+  
+  
+}
+
+
+
+
