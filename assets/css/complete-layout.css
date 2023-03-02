@@ -32,6 +32,8 @@ body {
   align-items: center;
   padding: 2rem;
   border-radius: 120px;
+  gap: 10px;
+  flex-shrink: 2;
 }
 
 .btn1 {
@@ -43,7 +45,7 @@ body {
 }
 
 .btn3 {
-  order: 4;
+  order: -1;
 }
 
 .btn4 {
@@ -214,9 +216,10 @@ span {
   background-color: #fef8d8;
   padding-top: 0.5rem;
   padding-bottom: 2rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-radius: 25px;
+  width: 500px;
 }
 
 .text-container {
@@ -236,11 +239,9 @@ span {
 }
 
 .honey-pic2 {
-  width: 380px;
+  width: 430px;
   height: 250px;
   object-fit: cover;
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
   
 }
