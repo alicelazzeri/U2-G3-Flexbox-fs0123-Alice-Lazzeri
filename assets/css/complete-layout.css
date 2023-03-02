@@ -19,43 +19,19 @@ body {
 
   /* Navigation bar */
 
-.total-btn {
-  padding: 2rem;
-}
-
 .bar-container {
   background-color: #fef8d8;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  padding: 2rem;
-  border-radius: 120px;
-  gap: 10px;
-  flex-shrink: 2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-.btn1 {
-
-}
-
-.btn2 {
-
-}
-
-.btn3 {
-  order: -1;
-}
-
-.btn4 {
-
-}
-
-.btn5 {
-
-
-}
 .our-honey {
   background-color: #ffdd61;
   border: none;
@@ -123,8 +99,8 @@ span {
   flex-direction: column;
   padding-top: 2rem; 
   padding-bottom: 2rem; 
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
 
 .honey-pic {
@@ -203,8 +179,8 @@ span {
 /* Article */
 
 .total-article-cnt {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
   padding-bottom: 2rem;
   margin-top: -2rem;
 }
